@@ -1,0 +1,185 @@
+/* 内容样式 */
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	/* padding-top: 110px; */
+	clear: both;
+}
+
+/* 购物车内容 */
+.shopping {
+	width: 100%;
+	color: #333;
+	vertical-align: middle;
+	padding: 50px 0px 10px 0px;
+	height: 32px;
+	text-align: center;
+	font-size: 14px;
+	/* border-bottom: 1px solid #000; */
+}
+
+.shopping .item {
+	width: auto;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+}
+
+.shopping .item .car {
+	width: 135px;
+	height: 20px;
+	display: block;
+	color: #6393b4;
+}
+
+.shopping .item .pay {
+	width: 135px;
+	height: 20px;
+	display: block;
+}
+
+.cartmei {
+	margin-top: 50px;
+	width: 640px;
+	height: 280px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: rgb(170, 170, 170) 2px 1px 2px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cartmei img {
+	width: 150px;
+	height: 110px;
+	margin-top: 40px;
+	/* margin-left: 245px; */
+}
+
+#no_goods {
+	width: 300px;
+	height: 24px;
+	margin-top: 15px;
+	background: #fff;
+	font-size: 24px;
+	color: #999;
+	line-height: 24px;
+	text-align: center;
+	margin-left: 170px;
+}
+
+
+.table {
+	width: 1000px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.table td img {
+	width: 80px;
+	height: 80px;
+	vertical-align: top;
+}
+
+.table th {
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: 1px solid #666;
+}
+
+.table .first-th {
+	text-align: left;
+}
+
+.table td {
+	padding: 10px 0px;
+	font-size: 14px;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+}
+
+.table td:first-child {
+	width: 150px;
+	text-align: left;
+}
+
+.table td:nth-child(2) {
+	width: 300px;
+}
+
+.table span {
+	padding: 0px 8px;
+	user-select: none;
+}
+
+.table .reduce,
+.table .add {
+	font-size: 20px;
+}
+
+.table .del {
+	color: #779CB9;
+}
+
+/* .price-all {
+	width: 1000px;
+	margin: 30px auto;
+} */
+
+.shopping-1 {
+	width: 100%;
+	/* width:1000px; */
+	margin: 30px auto;
+	clear: both;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.shopping-1 p {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.shopping-1 p .line {
+	font-size: 18px;
+}
+
+/* 购物车里面图片 */
+.shopping-1 p .priceNo {
+	color: #197bc9;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.shopping-1 p .pay-1 {
+	display: inline-block;
+	width: 168px;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	background: #7fa6c5;
+	margin-top: 5px;
+	border: none;
+}
+
+/* 继续购物 */
+.shopping-1 .keep {
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	font-size: 14px;
+	color: #404040;
+	width: 60px;
+	padding: 0 54px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.shopping-1 .keep a {
+	color: #404040;
+}

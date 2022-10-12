@@ -1,0 +1,199 @@
+/* 内容样式 */
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* 基本设置 */
+.usetting {
+	width: 1000px;
+	color: #666;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.usetting .nav {
+	width: 1000px;
+	padding: 20px 0px;
+	height: 27px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	line-height: 27px;
+	vertical-align: middle;
+}
+
+.usetting .nav a.current {
+	color: #fff;
+	background: url(../images/label_bg79_27.png) no-repeat;
+}
+
+.usetting .nav a.navitem {
+	/* color: #666; */
+	display: inline-block;
+	text-align: center;
+	/* height: 27; */
+	width: 79px;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+/* 个人设置 */
+
+.usetting .secNav {
+	width: 1000px;
+	padding: 20px 0px;
+	height: 20px;
+	font-size: 13px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.usetting .secNav a.first {
+	padding-left: 0px;
+}
+
+.usetting .secNav a.navitem {
+	color: #666;
+	display: inline-block;
+	text-align: center;
+	height: 27;
+	padding: 0px 7px;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.usetting .secNav a.current {
+	color: #7ca8cb;
+}
+
+/* 收货地址管理 */
+.usetting form {
+	width: 100%;
+	padding: 0px;
+}
+
+.usetting form table {
+	width: 1000px;
+	margin-top: 20px;
+}
+
+.usetting form table tr td {
+	padding: 10px 0px;
+}
+
+.usetting form tr td .navTle {
+	font-size: 16px;
+	color: #333;
+	display: inline-block;
+	padding: 5px 0px;
+}
+
+.usetting form tr td .navTle2 {
+	font-size: 14px;
+	color: #7ca8cb;
+	display: inline-block;
+	padding: 5px 0px;
+	margin-right: 10px;
+}
+
+.usetting form tr td .txtNote {
+	font-size: 12px;
+	color: #999;
+}
+
+.usetting form table tr td {
+	padding: 10px 0px;
+}
+
+.usetting form table tr td.first {
+	width: 80px;
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.usetting form input.inpt2 {
+	display: inline-block;
+	_display: inline;
+	zoom: 1;
+	width: 245px;
+	height: 18px;
+	border: 0px;
+	line-height: 18px;
+	vertical-align: middle;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.is_required {
+	color: #6595b6;
+}
+
+.usetting form .txtarea2 {
+	width: 320px;
+	height: 36px;
+	border: 1px solid #ccc;
+	resize: none;
+	outline: none;
+	padding: 5px;
+}
+
+.usetting form input.confirmBtn {
+	cursor: pointer;
+	border: none;
+	height: 30px;
+	width: 98px;
+	background: url(../images/save_btn98_30.png) no-repeat;
+	color: #fff;
+}
+
+/* 保存的地址样式 */
+.addressTabCon {
+	width: 1000px;
+	margin-top: 60px;
+}
+
+.addressTabCon .conTle {
+	width: 1000px;
+	clear: both;
+	padding: 5px 0px;
+	color: #6696b7;
+	font-size: 14px;
+}
+
+.addressTabCon table {
+	width: 100%;
+	color: #666;
+}
+
+.addressTabCon table tr th {
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	height: 20px;
+	font-size: 13px;
+	border: 1px solid #bbb;
+}
+
+.addressTabCon table tr td {
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+	height: 20px;
+	border: 1px solid #bbb;
+}
+
+.addressTabCon table tr td .blue {
+	color: #6696b7;
+}
+
+.addressTabCon .conNote {
+	width: 1000px;
+	clear: both;
+	padding: 5px 0px;
+	color: #999;
+	font-size: 12px;
+}

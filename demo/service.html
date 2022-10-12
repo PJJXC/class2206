@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>有偿咨询页面</title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/notes.css">
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<!-- 顶部导航栏 -->
+			<div class="header-top">
+				<div class="header-top1">
+					<!-- logo -->
+					<a class="logo" href=""><img src="images/20220912232039.png" alt=""></a>
+					<a class="logo" href=""><img class="img1" src="images/20220912232053_02.png" alt=""></a>
+					<ul>
+						<li id="li-list">
+							<a href="javascript:;" class="login login-btn">登录</a>
+							<a href="javascript:;" class="welcome">欢迎</a>
+						</li>
+						<li id="li-list">
+							<a href="register.html" class="register reg-btn">注册</a>
+							<a href="javascript:;" class="login-out">退出</a>
+						</li>
+						<li class="line"></li>
+						<li class="shop">
+							<a href="javascript:;" class="cart-btn">购物车</a>
+							<!-- 子菜单 -->
+							<!-- 下拉列表 -->
+							<div class="subshop">
+								<div class="subshop-up">
+									<a href="">你的购物车暂时没有商品...</a>
+								</div>
+								<a class="add-shop" href="">快去抢购良仓商品吧！</a>
+							</div>
+						</li>
+						<li class="line"></li>
+						<li class="message">
+							<a href="">消息</a>
+							<!-- 子菜单 -->
+							<!-- 下拉列表 -->
+							<div class="submessage">
+								<a href=""><span>动态<p>0</p></span></a>
+								<a href=""><span>评论<p>0</p></span></a>
+								<a href=""><span>私信<p>0</p></span></a>
+								<a href=""><span>粉丝<p>0</p></span></a>
+								<a href=""><span>喜欢<p>0</p></span></a>
+								<a href=""><span>通知<p>0</p></span></a>
+							</div>
+						</li>
+						<li class="line"></li>
+						<li><a href="">添加良品</a></li>
+						<li class="line"></li>
+						<li><a href="">资质证照/协议规则</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 二级导航栏 -->
+			<div class="submenu">
+				<ul>
+					<li class="index"><a href="index.html">首页</a></li>
+					<li>
+						<a href="classify.html"> 商店 </a>
+						<!-- 商店子菜单 -->
+						<div class="substore">
+							<ul class="substore-l"></ul>
+							<!-- 这是导航分类的模板 -->
+							<script type="text/template" id="nav-template">
+								<li class="substore-l-1"><img class="substore-l-2" src="@cat_img@" alt=""><a class="jiaju" href="">@cat_name@</a></li>
+							</script>
+							<div class="substore-l-3">
+								<a href="">查看所有品牌</a>
+								<span>&gt;</span>
+								<a href="">最新到货</a>
+								<span>&gt;</span>
+							</div>
+							<div class="substore-r">
+								<a href="">
+									<div class="substore-r-1">
+										<img src="images/315574.jpg" alt="">
+										<p>新视线：2015年7月刊</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="notes.html">杂志</a>
+						<div class="magazine substore">
+							<a href="">趣物</a>
+							<a href="">数码</a>
+							<a href="">汽车</a>
+							<a href="">文化</a>
+							<a href="">时尚</a>
+							<a href="">美食</a>
+							<a href="">建筑</a>
+							<a href="">空间</a>
+							<a href="">圈子</a>
+							<a href="">清单</a>
+							<a href="">活动</a>
+							<a href="">视频</a>
+						</div>
+					</li>
+					<li>
+						<a href="share.html">分享</a>
+						<div class="share substore">
+							<a href="">男士</a>
+							<a href="">家居</a>
+							<a href="">数码</a>
+							<a href="">工具</a>
+							<a href="">玩具</a>
+							<a href="">美容</a>
+							<a href="">孩子</a>
+							<a href="">宠物</a>
+							<a href="">饮食</a>
+							<a href="">运动</a>
+							<a href="">文化</a>
+							<a href="">女士</a>
+						</div>
+					</li>
+					<li class="daren"><a href="">达人</a></li>
+					<li class="zixun"><a href="service.html">有偿资讯</a></li>
+				</ul>
+				<!-- 放大镜 -->
+				<div class="search">
+					<div class="search-1">
+						<ul class="search-input">
+							<li>
+								<div class="input">
+									<input placeholder="search...">
+								</div>
+								<a href="" class="search-icon"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 返回顶部 -->
+		<div class="fanhui">返回顶部</div>
+
+
+		<!-- 图片 -->
+		<div class="photo">
+			<div class="photo-1">
+				<div class="photo-2">
+					<a href=""><img src="images/1124.jpg" alt=""></a>
+				</div>
+				<p class="p1"><a href="">一个无聊的旅游广告，被日本拍成千</a></p>
+				<p class="p2"><a href="">文化</a></p>
+			</div>
+			<div class="photo-1">
+				<div class="photo-2">
+					<a href=""><img src="images/1122.jpg" alt=""></a>
+				</div>
+				<p class="p1"><a href="">为什么意大利人总diss星巴克？</a></p>
+				<p class="p2"><a href="">文化</a></p>
+			</div>
+			<div class="photo-1">
+				<div class="photo-2">
+					<a href=""><img src="images/1087.jpg" alt=""></a>
+				</div>
+				<p class="p1"><a href="">今夏最值得去，2017日本花火大</a></p>
+				<p class="p2"><a href="">文化</a></p>
+			</div>
+			<div class="photo-1">
+				<div class="photo-2">
+					<a href=""><img src="images/1369.jpg" alt=""></a>
+				</div>
+				<p class="p1"><a href="">世上最美的教堂， 建了139年的</a></p>
+				<p class="p2"><a href="">文化</a></p>
+			</div>
+			<div class="photo-1">
+				<div class="photo-2">
+					<a href=""><img src="images/1370.jpg" alt=""></a>
+				</div>
+				<p class="p1"><a href="">卡拉扬：一条裙子可以成为你缺席或</a></p>
+				<p class="p2"><a href="">文化</a></p>
+			</div>
+			<div class="photo-1">
+				<div class="photo-2">
+					<a href=""><img src="images/1371.jpg" alt=""></a>
+				</div>
+				<p class="p1"><a href="">“抛弃”千年古城开罗，埃及迁都花</a></p>
+				<p class="p2"><a href="">建筑</a></p>
+			</div>
+		</div>
+
+
+		<!-- 底部的白色部分 -->
+		<div class="footer">
+			<div class="footer-top">
+				<div class="footer-top-1">
+					<a href="">
+						<p class="hand"></p>
+					</a>
+				</div>
+				<div class="footer-top-2">
+					<div class="footer-top-3">
+						<div class="footer-top-4"></div>
+						<div class="footer-top-5">
+							<p class="footer-top-6">全球精品</p>
+							<p class="footer-top-7">Global Selections</p>
+						</div>
+					</div>
+					<div class="footer-top-3">
+						<div class="footer-top-8"></div>
+						<div class="footer-top-5">
+							<p class="footer-top-6">正品保证</p>
+							<p class="footer-top-7">Authenticity Guaranteed</p>
+						</div>
+					</div>
+					<div class="footer-top-3">
+						<div class="footer-top-9"></div>
+						<div class="footer-top-5">
+							<p class="footer-top-6">全场包邮</p>
+							<p class="footer-top-7">Free Delivery</p>
+						</div>
+					</div>
+					<div class="footer-top-3">
+						<div class="footer-top-10"></div>
+						<div class="footer-top-5">
+							<p class="footer-top-11"></p>
+							<p class="footer-top-7">工作日 09:00-18:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 底部的黑色部分 -->
+		<div class="phone">
+			<!-- 中间 -->
+			<div class="phone-m">
+				<!-- 中间左边 -->
+				<div class="phone-l">
+					<div class="phone-l-top">
+						<ul class="top-1">
+							<li class="top-2">
+								<!-- <img src="images/khd-top.png" alt=""> -->
+							</li>
+							<li>
+								<div class="subtop-1">
+									<img src="images/qr_code_down274x178.png" alt="">
+								</div>
+								<a href="">iPhone Android<br>客户端下载</a>
+							</li>
+						</ul>
+					</div>
+					<div class="phone-l-bottom">
+						<div class="phone-title">
+							<span>|</span>
+							<a href="">关于万集<span>|</span></a>
+							<a href="">服务协议<span>|</span></a>
+							<a href="">隐私保护政策<span>|</span></a>
+							<a href="">使用指南<span>|</span></a>
+							<a href="">联系我们<span>|</span></a>
+							<a href="">加入我们<span>|</span></a>
+							<a href="">友情链接<span>|</span></a>
+							<a href="">私信万集</a>
+						</div>
+						<span>©</span>
+						<p>2013-2019 北京万集文化传播有限公司版权所有</p>
+						<p>公司名称：北京万集文化传播有限公司 电话：010-58696733</p>
+						<p>公司地址：北京朝阳区百子湾路32号6号楼1层60号.</p>
+						<p>社会信用统一代码：91110105059231575L 食品许可证：JY11105160159557</p>
+						<p>图书证名称：中华人民共和国出版物经营许可证 图书证编号：新出发京零 字第 朝 150051 号</p>
+						<a href="" class="jing">京ICP备13010677号-1</a>
+						<p>京公网安备11010502025627</p>
+					</div>
+				</div>
+				<div class="phone-r">
+					<div class="wx">
+						<div class="wx-1">
+							<ul class="wx-2">
+								<li class="wx-3">
+									<div class="wb">
+										<img src="images/wb.png" alt="">
+									</div>
+									<a href="">
+										<img src="images/khd-a.png" alt="">
+										<img src="images/khd-a2.png" class="wx-a1" alt="">
+									</a>
+								</li>
+								<li class="wx-3">
+									<a href="">
+										<img src="images/khd-c.png" alt="">
+										<img src="images/khd-c2.png" class="wx-a2" alt="">
+									</a>
+								</li>
+
+								<li class="wx-3">
+									<a href="">
+										<img src="images/khd-b.png" alt="">
+										<img src="images/khd-b2.png" class="wx-a3" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/js库.js"></script>
+<script src="js/base.js"></script>

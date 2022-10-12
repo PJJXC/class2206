@@ -1,0 +1,25 @@
+.shopping .item .car {
+	color: #333;
+}
+
+.shopping .item .pay {
+	color: #6393b4;
+}
+
+.code {
+	margin-top: 50px;
+	width: 640px;
+	height: 290px;
+	background-color: rgb(255, 255, 255);
+	/* box-shadow: rgb(170, 170, 170) 2px 1px 2px; */
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.code img {
+	width: 300px;
+	height: 300px;
+	margin: 0 170px;
+
+}

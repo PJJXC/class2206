@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/register.css">
+	</head>
+	<body>
+		<div class="main">
+			<form>
+				<table class="regtab">
+					<tr valign="center" align="center">
+						<td colspan="3" height="160px">
+							<a href="index.html">
+								<img class="img1" src="images/20220912232039.jpg" alt="">
+							</a>
+							<a href="index.html">
+								<img class="img2" src="images/20220912232053_02.jpg" alt="">
+							</a>
+						</td>
+					</tr>
+					<tr valign="middle" height="50px">
+						<th class="regLabel" width="56px" ; align="left">手机号</th>
+						<td width="270px" align="left" style="position: relative">
+							<input type="text" class="username" placeholder="请输入手机号">
+							<span class="msg user-msg"></span>
+						</td>
+					</tr>
+					<tr valign="middle" height="50px">
+						<th width="56px" class="regLabel" align="left">验证码</th>
+						<td width="270px" align="left" style="position: relative">
+							<input type="text" class="regcode" placeholder="输入验证码">
+							<span id="auth"></span>
+							<span class="msg label-msg"></span>
+						</td>
+						<td align="left">
+							<input type="button" class="nextcode" onclick="downChange()" value="看不清，换一张" />
+						</td>
+					</tr>
+
+					<!-- 创建密码 -->
+					<tr valign="middle" height="50px">
+						<th width="56px" class="regLabel" align="left">创建密码</th>
+						<td width="270px" align="left" style="position: relative">
+							<input type="password" class="pwd" placeholder="6~20位数字组成">
+							<span class="msg pwd-msg"></span>
+						</td>
+					</tr>
+					<!-- 确认密码 -->
+					<!-- 同意 -->
+					<tr valign="middle" height="50px">
+						<th width="76px" class="regLabel" align="left"></th>
+						<td>
+							<div class="agree">
+								<input type="checkbox" checked="checked" class="overtrea">同意
+								<a class="vertpos" style="color: #0c79cc;" target="_blank" href="">良仓注册条款</a>
+							</div>
+						</td>
+					</tr>
+					<tr valign="center" align="center">
+						<td width="300px" colspan="2" align="right">
+							<input class="register-btn" type="button" disabled value="立即注册"
+								style="border-radius: 4px;font-weight: normal;">
+						</td>
+					</tr>
+					<tr valign="center" align="center">
+						<th></th>
+						<td width="100px" align="left">
+							<a href="" class="loginApp qqapp"></a>
+							<a href="" class="loginApp wbapp"></a>
+							<a href="" class="loginApp dbapp"></a>
+							<a href="" class="loginApp tqqapp"></a>
+						</td>
+						<td align="left">
+							<a href="login-user.html" class="reg">登录万集</a>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
+<script src="js/js库.js"></script>
+<script src="js/register.js"></script>

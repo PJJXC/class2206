@@ -1,0 +1,278 @@
+.banner {
+	width: 1000px;
+	height: 540px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.banner li {
+	width: 1000px;
+	height: 475px;
+	/* margin-top: 1px; */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	display: none;
+}
+
+.banner .active {
+	display: block;
+}
+
+.banner li img {
+	width: 1000px;
+	height: 475px;
+}
+
+.banner>a {
+	position: absolute;
+	top: 212px;
+	z-index: 3;
+	width: 50px;
+	height: 50px;
+	opacity: 0.9;
+}
+
+.banner>a:hover {
+	background-color: black;
+	border-radius: 50%;
+	opacity: 0.6;
+}
+
+.banner .prev {
+	background: url(../images/normal_right.png);
+	left: 0px;
+}
+
+.prev:hover {
+	/* background: gray; */
+}
+
+.banner .next {
+	background: url(../images/normal_left.png);
+	right: 0px;
+}
+
+.next:hover {
+	/* background: gray; */
+}
+
+.number {
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	bottom: 30px;
+	z-index: 3;
+}
+
+.number span {
+	float: left;
+	width: 20px;
+	height: 5px;
+	background: gray;
+	margin: 0px 5px;
+	cursor: pointer;
+}
+
+.span {
+	display: none;
+}
+
+.number .current {
+	background: #000;
+}
+
+/* 人气良品 */
+.food {
+	height: 405px;
+}
+
+/* 弹性布局 */
+.food-1 {
+	position: relative;
+	width: 1000px;
+	height: 405px;
+	/* background: red; */
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-direction: column;
+}
+
+.item-1 {
+	width: 317px;
+	height: 190px;
+}
+
+.item-2 {
+	position: absolute;
+	width: 318px;
+	height: 403px;
+	left: 340px;
+	top: 0px;
+}
+
+.renqi {
+	height: 110px;
+	overflow: hidden;
+}
+
+.renqi-top {
+	width: 1000px;
+	height: 110px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.renqi-1 {
+	width: 1000px;
+	height: 59px;
+	margin: 0px auto;
+	overflow: hidden;
+	border-bottom: 1px solid #000;
+}
+
+.renqi-1 p {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.liangpin {
+	width: 1000px;
+	/* height: 2376px; */
+	margin: 0 auto;
+}
+
+.goods-list {
+	width: 1000px;
+	/* height: 1000px; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: relative;
+}
+
+.goods-list>li {
+	width: 316px;
+	height: 370px;
+	/* border: 1px solid #666; */
+	margin: 0 0 10px 0;
+}
+
+
+.liangpin-2 {
+	width: 286px;
+	height: 286px;
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	display: none;
+}
+
+.liangpin-3 {
+	width: 286px;
+	height: 30px;
+}
+
+.liangpin-3 h1 {
+	color: #0c6eba;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.liangpin-4 {
+	width: 286px;
+	height: 80px;
+}
+
+.liangpin-4 h3 {
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 70px;
+}
+
+.liangpin-4 p {
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
+
+.goods-list li:hover .liangpin-2 {
+	display: block;
+}
+
+.liangpin-5 img {
+	width: 316px;
+	height: 316px;
+	/* background: blue; */
+}
+
+.liangpin-6 {
+	width: 316px;
+	height: 40px;
+	margin-top: 10px;
+	/* background: pink; */
+}
+
+.liangpin-6 a {
+	color: #878787;
+}
+
+.liangpin-7 {
+	width: 216px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.liangpin-7 img {
+	/* display: inline-block; */
+	width: 40px;
+	height: 40px;
+	margin: 0 10px 0 0;
+}
+
+.liangpin-7 p {
+	font-size: 15px;
+	float: right;
+	line-height: 40px;
+	text-indent: 15px;
+}
+
+.liangpin-8 {
+	width: 35px;
+	height: 40px;
+}
+
+/* MORE样式 */
+.more {
+	width: 144px;
+	height: 44px;
+	border: 3px solid #25292E;
+	margin: 30px auto;
+	cursor: pointer;
+	text-align: center;
+	line-height: 44px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.more:hover {
+	background-color: #25292E;
+	color: white;
+}
+
+.load {
+	text-align: center;
+	margin: 30px 0px;
+	font-size: 12px;
+	color: #999;
+	/* 默认隐藏 */
+	display: none;
+}

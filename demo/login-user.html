@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户登录页面</title>
+		<link rel="stylesheet" href="css/login-user.css">
+	</head>
+	<style>
+		.background {
+			width: 350px;
+			height: 120px;
+			border: 2px solid#000;
+			background: #666;
+			border-radius: 20px;
+			text-align: center;
+			line-height: 120px;
+			color: #fff;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-top: -60px;
+			margin-left: -175px;
+			z-index: 1000;
+			display: none;
+		}
+	</style>
+	<body>
+		<!-- 内容 -->
+		<div class="main">
+			<!-- 提示框 -->
+			<div class="background"></div>
+			<form action="" class="login-user-form">
+				<table class="login-tab">
+					<tr valign="center" align="center">
+						<td height="150px" colspan="2" width="310px">
+							<a href="index.html">
+								<img class="img1" src="images/20220912232039.jpg" alt="">
+							</a>
+							<a href="index.html">
+								<img class="img2" src="images/20220912232053_02.jpg" alt="">
+							</a>
+
+						</td>
+					</tr>
+					<tr valign="center" align="center">
+						<td height="36" colspan="2" width="310px">
+							<div class="login-user">
+								<label class="userlogo"></label>
+								<input type="text" autofocus class="loginInput username" placeholder="手机号/邮箱/用户名" />
+							</div>
+						</td>
+					</tr>
+					<tr valign="center" align="center">
+						<td height="36" colspan="2" width="310px">
+							<div class="login-user">
+								<label class="passwordlogo"></label>
+								<input type="password" class="loginInput pwd" placeholder="密码">
+							</div>
+						</td>
+					</tr>
+					<tr valign="center" align="center">
+						<td width="150px" align="left" style="padding-left: 5px;">
+							<input type="checkbox" checked="checked" class="check">
+							<span class="check-1">自动登录</span>
+						</td>
+						<td width="150px" align="right">
+							<a href="" class="forget">忘记密码？</a>
+						</td>
+					</tr>
+					<tr valign="center" align="center">
+						<td width="300px" colspan="2">
+							<input type="button" class="loginBtn login-btn" value="登录">
+						</td>
+					</tr>
+					<tr valign="center" align="center">
+						<td height="40px" width="200px" align="left">
+							<a href="" class="loginApp qqapp"></a>
+							<a href="" class="loginApp wbapp"></a>
+							<a href="" class="loginApp dbapp"></a>
+							<a href="" class="loginApp tqqapp"></a>
+						</td>
+						<td width="100px" align="right">
+							<a href="register.html" class="reg">注册万集</a>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
+<script src="js/js库.js"></script>
+<script src="js/login-user.js"></script>
